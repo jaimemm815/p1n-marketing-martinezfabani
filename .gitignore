@@ -1,2 +1,10 @@
 .venv/
 .DS_Store
+
+# Credenciales (API keys): nunca se suben a GitHub
+.env
+.env.*
+!.env.example
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
