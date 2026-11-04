@@ -1,0 +1,4 @@
+fuente,tipo_evaluacion,n_textos,categoria_correcta_pct,encaje_medio,encaje_2_pct,encaje_1_pct,encaje_0_pct
+total,un anotador (anotador 2),100.0,88.0,1.97,97.0,3.0,0.0
+news,un anotador (anotador 2),50.0,100.0,2.0,100.0,0.0,0.0
+wikihow,un anotador (anotador 2),50.0,76.0,1.94,94.0,6.0,0.0
