@@ -150,59 +150,89 @@ no los sobrescribe si ya existen.
 
 ### Anotación
 
-Solo se completó una anotación independiente, la de Isabella
-(`anotador_2.csv`). La segunda (`anotador_1.csv`) no llegó a hacerse de forma
-independiente y se dejó vacía. Por tanto, **no se calculan porcentaje de
-acuerdo ni Cohen's Kappa**, y los resultados corresponden a un único anotador.
+Los dos anotadores rellenaron cada uno su archivo: Jaime (`anotador_1.csv`) e
+Isabella (`anotador_2.csv`). El notebook calcula el porcentaje de acuerdo,
+Cohen's Kappa (y la Kappa ponderada para el encaje), el porcentaje de categorías
+correctas según ambos y el encaje medio, en total y por fuente.
 
-El notebook se adaptó a esta situación. Con una anotación completa calcula el %
-de categorías correctas, el encaje medio y la distribución del encaje; con dos,
-calcula además el acuerdo, la Kappa y la Kappa ponderada. Si se completa
-`anotador_1.csv`, basta con volver a ejecutarlo.
-
-### Resultados
-
-Archivos: `data/hito2/resultados_evaluacion.csv` (métricas) y
+Resultados en `data/hito2/resultados_evaluacion.csv` (métricas) y
 `data/hito2/anotaciones_combinadas.csv` (anotaciones unidas a la salida del
 modelo).
 
+### Acuerdo entre anotadores
+
 | Métrica | Total | news | wikihow |
 |---|---|---|---|
-| Categorías correctas | 88 % | 100 % | 76 % |
-| Encaje medio (0–2) | 1,97 | 2,00 | 1,94 |
-| Encaje claro (2) | 97 % | 100 % | 94 % |
-| Encaje parcial (1) | 3 % | 0 % | 6 % |
-| No encaja (0) | 0 % | 0 % | 0 % |
+| Acuerdo en categoría | 82 % | 86 % | 78 % |
+| Kappa categoría | 0,15 | 0,00 | 0,25 |
+| Acuerdo en encaje | 84 % | 82 % | 86 % |
+| Kappa encaje | 0,16 | 0,00 | 0,30 |
+
+El porcentaje de acuerdo es alto, pero la Kappa es baja (acuerdo «leve» según
+la escala de Landis y Koch). Hay dos motivos:
+
+- **Paradoja de la Kappa:** casi todas las respuestas son «categoría correcta»
+  y «encaja claramente», así que una parte importante del acuerdo es esperable
+  por azar y la Kappa la descuenta. En `news` la Kappa es 0 porque la anotadora 2
+  marcó todas las categorías como correctas y todos los anuncios con encaje 2;
+  con un anotador constante, la Kappa no puede ser positiva.
+- **Discrepancia real sobre qué casos fallan:** de los 21 textos que algún
+  anotador marcó con categoría incorrecta, solo coinciden en 3 (ids 51, 75 y
+  84, todos de WikiHow). El anotador 1 marca como incorrectas 7 noticias, entre
+  ellas algunas que a priori parecen claras (id 8, elecciones en Galicia →
+  `politics`; id 10, eliminación en la Europa League → `sport`). La anotadora 2
+  concentra sus 12 errores en textos de WikiHow con temas fuera de la
+  taxonomía. Esto indica que los criterios de anotación no estaban calibrados
+  entre ambos.
+
+### Categorías y encaje
+
+| Métrica | Total | news | wikihow |
+|---|---|---|---|
+| Categoría correcta según ambos | 79 % | 86 % | 72 % |
+| Categoría correcta — anotador 1 | 88 % | 86 % | 90 % |
+| Categoría correcta — anotadora 2 | 88 % | 100 % | 76 % |
+| Encaje medio (0–2), media de ambos | 1,90 | 1,91 | 1,89 |
+| Encaje medio — anotador 1 | 1,83 | 1,82 | 1,84 |
+| Encaje medio — anotadora 2 | 1,97 | 2,00 | 1,94 |
+
+Ningún anuncio recibió un 0 en encaje de ninguno de los dos anotadores.
 
 ### Comparación `news` frente a `wikihow`
 
-- En las **noticias**, todas las categorías se consideran correctas y todos los
-  anuncios encajan claramente: el corpus del que salen las 12 categorías es
-  periodístico, y el modelo clasifica bien ese tipo de texto.
-- En **WikiHow**, 12 de los 50 textos (24 %) reciben una categoría incorrecta.
-  **Los 12 errores de la muestra son de WikiHow.** Se concentran en `play`
-  (4 casos), `medicine` (3), `tech` (2), `fashion`, `alimentation` y `motor`
-  (1 cada una). Los comentarios de la anotadora describen el mismo patrón: el
-  texto trata de un tema que no existe en la taxonomía (relaciones personales,
-  bricolaje, jardinería, mascotas, transporte ferroviario) y el modelo lo
-  asigna a la categoría más cercana, que actúa como comodín (`play` para
-  bricolaje y manualidades, `medicine` para autoestima y autocuidado).
-- Aun así, el **encaje del anuncio** apenas baja en WikiHow (1,94 frente a
-  2,00). El anuncio se genera a partir del contenido concreto del texto y no
-  solo de la categoría, así que suele ser pertinente aunque la categoría sea
-  forzada. Los 3 anuncios con encaje parcial (ids 60, 75 y 96) coinciden con
-  textos mal categorizados.
+- Con el criterio más exigente (categoría correcta según ambos), las noticias
+  salen mejor que WikiHow: **86 % frente a 72 %**. Pero la diferencia depende
+  del anotador: para la anotadora 2 es grande (100 % frente a 76 %), y para el
+  anotador 1 no existe (86 % frente a 90 %).
+- Los 3 casos que **ambos** consideran mal categorizados son de WikiHow, y
+  corresponden a temas que no existen en la taxonomía: relaciones personales
+  (id 75 → `fashion`), adaptación de un gato al hogar (id 84 →
+  `alimentation`) y un tema familiar/relacional (id 51 → `medicine`). Los
+  comentarios de la anotadora 2 describen el mismo patrón en el resto de sus
+  casos: el modelo asigna la categoría más cercana, que hace de comodín (`play`
+  para bricolaje y manualidades, `medicine` para autoestima y autocuidado,
+  `motor` para transporte ferroviario).
+- El **encaje del anuncio** es prácticamente igual en las dos fuentes (1,91
+  frente a 1,89). El anuncio se genera a partir del contenido concreto del texto
+  y no solo de la categoría, así que suele ser pertinente aunque la categoría
+  sea forzada. Los dos únicos casos con encaje parcial para ambos anotadores
+  (ids 60 y 96) son textos de WikiHow.
 
 ### Conclusiones y limitaciones
 
-- La generación funciona muy bien dentro del dominio del corpus (noticias), y
-  la principal debilidad está en la **taxonomía**, no en el modelo: 12
-  categorías periodísticas no cubren contenidos frecuentes en la web, como
-  hogar, bricolaje, relaciones o mascotas. Para un sistema de publicidad
-  contextual real convendría ampliarla o añadir una categoría «otros».
-- Con un único anotador no se puede medir la fiabilidad de la evaluación. Los
-  resultados son la valoración de una persona y pueden ser optimistas (97 % de
-  encaje claro).
-- La anotadora conocía el diseño del sistema y evaluó anuncios generados con
-  Claude en modo manual. Una evaluación más robusta usaría dos anotadores
-  independientes y ciegos al proceso de generación.
+- La generación funciona bien en general: un 79 % de categorías correctas
+  según ambos anotadores y un encaje medio de 1,90 sobre 2, sin ningún anuncio
+  que no encaje.
+- La debilidad más clara está en la **taxonomía**: 12 categorías periodísticas
+  no cubren contenidos frecuentes en la web, como hogar, bricolaje, relaciones
+  o mascotas. Para un sistema de publicidad contextual real convendría
+  ampliarla o añadir una categoría «otros».
+- **La fiabilidad de la evaluación es baja** (Kappa 0,15–0,16): los dos
+  anotadores no comparten el criterio sobre qué cuenta como categoría
+  incorrecta, así que las conclusiones de la comparación entre fuentes deben
+  tomarse con cautela. Para una evaluación más robusta habría que definir una
+  guía de anotación con ejemplos, hacer una ronda de calibración conjunta antes
+  de anotar y, si es posible, añadir un tercer anotador para resolver
+  desacuerdos.
+- Los anuncios se generaron con Claude en modo manual, sin API, y los
+  anotadores conocían el diseño del sistema.
