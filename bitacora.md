@@ -56,8 +56,10 @@ equilibrada por fuente: 50 de `news` y 50 de `wikihow`.
 
 ### Generación con IA generativa
 
-- **Modelo:** Claude (`claude-opus-5-5`), vía la API de Anthropic con la
-  librería `anthropic`. Esfuerzo `low`, por ser una tarea corta.
+- **Modelo:** Claude (`claude-opus-5-5`). El notebook puede llamarlo vía la API
+  de Anthropic con la librería `anthropic` (esfuerzo `low`, por ser una tarea
+  corta) o leer respuestas ya generadas (modo manual; ver entrada del 4 de
+  noviembre).
 - **API key:** se lee de un archivo `.env` local mediante `python-dotenv`. El
   archivo está en `.gitignore`, por lo que la clave no aparece en el notebook ni
   se sube a GitHub; `.env.example` sirve de plantilla.
@@ -89,3 +91,58 @@ Métricas previstas, en total y por fuente (`news` frente a `wikihow`):
 porcentaje de acuerdo y Cohen's Kappa para ambas variables (para el encaje,
 además, Kappa ponderada cuadrática por ser una escala ordinal), porcentaje de
 categorías correctas según ambos anotadores y encaje medio.
+
+## 4 de noviembre de 2026 — Generación de la muestra
+
+### Generación manual con un LLM
+
+No se disponía de API key, así que se optó por la alternativa admitida de
+generar los anuncios manualmente con un LLM. Se usó Claude (Opus 5.5) en una
+sesión interactiva de Claude Code y se aplicó a cada uno de los 100 textos
+exactamente el mismo prompt de `crear_prompt`. Los textos se procesaron en 4
+lotes de 25.
+
+Las respuestas, en el mismo formato `CATEGORIA:` / `ANUNCIO:`, se guardaron en
+`data/hito2/respuestas_manuales.csv`. Cuando no encuentra API key, el notebook
+funciona en modo `manual`: lee ese archivo en lugar de llamar a la API. La
+extracción, la validación y la evaluación son idénticas en ambos modos, y basta
+con añadir una clave en `.env` para regenerar los resultados vía API.
+
+### Resultados de la generación
+
+- 100/100 respuestas con el formato esperado y con una categoría de la lista
+  permitida; ningún reintento necesario.
+- Anuncios de entre 20 y 29 palabras, sin anuncios repetidos.
+- Resultados en `data/hito2/muestra_generada.csv`.
+
+Distribución de las categorías generadas:
+
+| Categoría | news | wikihow | Total |
+|---|---|---|---|
+| medicine | 4 | 12 | 16 |
+| play | 5 | 9 | 14 |
+| tech | 7 | 7 | 14 |
+| fashion | 5 | 8 | 13 |
+| alimentation | 4 | 5 | 9 |
+| economy | 1 | 6 | 7 |
+| religion | 7 | 0 | 7 |
+| sport | 5 | 1 | 6 |
+| politics | 5 | 0 | 5 |
+| astronomy | 3 | 0 | 3 |
+| military | 2 | 1 | 3 |
+| motor | 2 | 1 | 3 |
+
+Las noticias se reparten entre las 12 categorías. Los textos de WikiHow se
+concentran en `medicine`, `play`, `fashion` y `tech`, y no aparecen nunca en
+`politics`, `religion` ni `astronomy`. `play` funciona como categoría de
+refugio para manualidades y bricolaje (p. ej. decoupage o piedra artificial), y
+hay asignaciones forzadas, como «cómo abrir las puertas de un tren» → `motor`.
+Es una primera señal de que la taxonomía periodística encaja peor con WikiHow,
+algo que la evaluación humana debe confirmar.
+
+### Archivos de anotación
+
+Se crearon `data/hito2/anotador_1.csv` y `data/hito2/anotador_2.csv`, vacíos e
+independientes. Cada anotador rellena el suyo sin ver el del otro. El notebook
+no los sobrescribe si ya existen y no calcula las métricas
+(`resultados_evaluacion.csv`) hasta que ambos estén completos.
