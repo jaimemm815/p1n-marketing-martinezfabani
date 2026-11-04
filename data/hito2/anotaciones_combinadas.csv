@@ -1,101 +1,101 @@
-id,source_type,categoria_correcta,encaje_anuncio,comentario,categoria_ok,encaje_medio,categoria_generada,anuncio_generado
-1,news,1,2,,1,2,sport,Vive la eliminatoria España-Serbia rumbo al Mundial 2025 con la camiseta oficial de los Hispanos y entradas para el partido de ida. ¡Reserva ya!
-2,news,1,2,,1,2,economy,Auditoría y cumplimiento normativo contra el blanqueo de capitales para fundaciones e instituciones: transparencia financiera que protege tu reputación. Solicita una consulta gratuita.
-3,news,1,2,,1,2,play,¿Te dejó sin aliento 'Nadie te salvará'? Suscríbete a nuestra plataforma de streaming y descubre los mejores thrillers de invasiones alienígenas y ciencia ficción.
-4,news,1,2,,1,2,play,Amplía tu Xbox Series S con un disco SSD de expansión y un mando inalámbrico extra: más espacio para tus juegos digitales y partidas sin límites.
-5,news,1,2,,1,2,military,Congreso internacional de sistemas de defensa antitanque y misiles guiados: conoce las últimas soluciones para plataformas blindadas. Inscríbete como profesional del sector.
-6,news,1,2,,1,2,astronomy,Descubre los secretos de los agujeros negros como M87 con nuestro telescopio para aficionados y la guía ilustrada del universo profundo.
-7,news,1,2,,1,2,fashion,"Completa tu look de novia low cost con nuestros tocados, sandalias y bolsos de fiesta a juego, perfectos para la boda y la preboda por menos de 50 euros."
-8,news,1,2,,1,2,politics,"Sigue en directo la noche electoral gallega con nuestro análisis de resultados, voto exterior y escaños en tiempo real. Suscríbete a nuestro boletín político."
-9,news,1,2,,1,2,motor,Devuelve el brillo de concesionario a tu coche con nuestro servicio de detailing profesional y kits de limpieza de carrocería e interior. ¡Pide cita!
-10,news,1,2,,1,2,sport,Anima al Betis en la eliminatoria de Conference contra el Dinamo de Zagreb con la nueva equipación verdiblanca y paquetes de viaje para la afición.
-11,news,1,2,,1,2,politics,"Prepara la EVAU sin sobresaltos con nuestra academia online: temario actualizado a los últimos cambios normativos, simulacros por comunidad y tutores especializados."
-12,news,1,2,,1,2,religion,"Viaja a Roma y visita el Vaticano con nuestras peregrinaciones guiadas: misa papal, Basílica de San Pedro y Museos Vaticanos incluidos."
-13,news,1,2,,1,2,sport,"Saca el máximo partido a tu reloj GPS con nuestros planes de entrenamiento personalizados para running y trail, adaptados a tu frecuencia cardíaca."
-14,news,1,2,,1,2,medicine,"Prepara el MIR o el EIR con nuestra academia: simulacros, clases en directo y tutorías para conseguir tu plaza de especialista en Formación Sanitaria Especializada."
-15,news,1,2,,1,2,play,Revive los clásicos de SNES y Nintendo 64 como Killer Instinct con nuestros mandos retro inalámbricos compatibles con Nintendo Switch.
-16,news,1,2,,1,2,alimentation,Cocina tus verduras estofadas sin grasa en minutos con nuestra cazuela antiadherente de hierro fundido y nuestros caldos de verduras caseros ecológicos.
-17,news,1,2,,1,2,politics,"Entiende las protestas del campo y el debate político con nuestro diario digital: análisis, entrevistas y opinión cada mañana. Suscríbete hoy."
-18,news,1,2,,1,2,medicine,"¿Cansancio, palidez o falta de concentración? Hazte un análisis completo de hierro, ferritina y vitamina B12 en nuestro laboratorio clínico con resultados en 24 horas."
-19,news,1,2,,1,2,play,"Disfruta de los 55 estrenos de mayo en streaming con nuestro pack de plataformas combinadas a precio reducido. Series, películas y documentales en un solo lugar."
-20,news,1,2,,1,2,alimentation,"Lubina y dorada de estero gaditano, frescas y con trazabilidad, directas a tu casa en 24 horas. Pide online en nuestra pescadería."
-21,news,1,2,,1,2,tech,Recupera la calma con nuestra app de gestión inteligente de notificaciones: filtra avisos del móvil y del smartwatch y recibe solo lo realmente importante.
-22,news,1,2,,1,2,tech,"Actuadores electromecánicos y sensores resistentes a altas temperaturas para la industria aeronáutica: ingeniería, prototipado y ensayos de validación a medida."
-23,news,1,2,,1,2,tech,"Rinde homenaje a la Ley de Moore con un portátil de última generación: procesador de alto rendimiento, más rápido, ligero y eficiente que nunca."
-24,news,1,2,,1,2,tech,¿Tienes ordenadores retro o dispositivos antiguos guardados? Tasamos y compramos tu tecnología vintage al mejor precio. Solicita tu valoración gratuita.
-25,news,1,2,,1,2,astronomy,"Explora Titán y las lunas de Saturno con nuestro curso online de astrobiología y exploración espacial, impartido por divulgadores científicos."
-26,news,1,2,,1,2,alimentation,"Recibe en casa naranjas salustianas recién cogidas de la Ribera Alta, dulces y jugosas, perfectas para zumos que no amargan. Pide tu caja hoy."
-27,news,1,2,,1,2,sport,Vive cada jornada de LaLiga como en la grada de Son Moix: suscríbete a nuestra plataforma deportiva y no te pierdas ni un gol en el descuento.
-28,news,1,2,,1,2,motor,"Prepara tu próximo raid todoterreno con nuestros recambios y equipamiento de competición para UTV: asientos, kits de seguridad y piezas de fibra de carbono homologadas FIA."
-29,news,1,2,,1,2,politics,"Sigue la actualidad del Parlamento de Cantabria con nuestro boletín de análisis político regional: debates, propuestas y presupuestos explicados cada semana."
-30,news,1,2,,1,2,religion,Descubre nuestros retiros de oración y adoración en silencio para grupos parroquiales y de renovación carismática. Reserva tu plaza y renueva tu vida de fe.
-31,news,1,2,,1,2,tech,"Protege tus cámaras, drones y equipos electrónicos con nuestras maletas estancas con divisores personalizables, ligeras y aptas como equipaje de mano."
-32,news,1,2,,1,2,religion,Únete a nuestra cadena de oración por las víctimas de accidentes laborales y sus familias. Encarga una misa o envía tu intención desde nuestra web.
-33,news,1,2,,1,2,fashion,"Anticipa la primavera con vestidos camiseros midi fluidos y satinados de nuestra nueva colección, ideales para la oficina o una cita. Ahora con descuentos especiales."
-34,news,1,2,,1,2,military,Soluciones de manipulación logística para defensa: apiladoras y grúas aerotransportables adaptadas a operaciones militares y buques anfibios. Solicita una demostración para tu unidad.
-35,news,1,2,,1,2,astronomy,"Explora el futuro de la energía espacial con nuestro curso online de tecnología de satélites y CubeSats, impartido por ingenieros aeroespaciales. Inscríbete ya."
-36,news,1,2,,1,2,medicine,"Controla tu hipertensión desde casa con nuestro tensiómetro digital de brazo con detección de arritmias, validado clínicamente. Cuida tu corazón cada día."
-37,news,1,2,,1,2,medicine,Estudia el sistema nervioso como nunca con nuestros atlas de anatomía y modelos 3D interactivos para estudiantes de Medicina. Pruébalos gratis este mes.
-38,news,1,2,,1,2,play,"Revive todas las aventuras de Hulk y los Vengadores en nuestro servicio de streaming: películas, series y extras del universo de superhéroes. Primer mes gratis."
-39,news,1,2,,1,2,fashion,"Encuentra tu vestido de novia de líneas sencillas y espalda abierta en nuestro atelier nupcial, con pendientes y accesorios a juego. Pide cita para tu prueba."
-40,news,1,2,,1,2,religion,"Vive la Cuaresma con nuestra app de meditación diaria del Evangelio: oración preparatoria, reflexión y propósito para cada día. Descárgala gratis."
-41,news,1,2,,1,2,alimentation,"Saca todo el partido a tu cafetera superautomática con nuestro café en grano de tueste artesanal, ideal para espressos y cappuccinos cremosos. Envío gratis en tu primer pedido."
-42,news,1,2,,1,2,sport,No te pierdas ningún partido de la NBA ni la Euroliga: suscríbete a nuestro pase de baloncesto y sigue a tus bases favoritos en directo.
-43,news,1,2,,1,2,fashion,Renueva tu armario de otoño con prendas de marcas internacionales y envío rápido a México. Aprovecha hasta un 25% de descuento en nuestra tienda online.
-44,news,1,2,,1,2,religion,Fórmate en la fe antes de tu experiencia misionera con nuestros cursos presenciales para jóvenes catequistas y voluntarios. Inscríbete y prepárate para la misión.
-45,news,1,2,,1,2,religion,"Restauramos imágenes religiosas dañadas con técnicas artesanales: tallas del Sagrado Corazón, santos patronos y retablos para parroquias. Solicita presupuesto sin compromiso."
-46,news,1,2,,1,2,fashion,"Combina collares, anillos y pulseras en capas con nuestras joyas de oro responsable y piedras naturales. Brilla con estilo y cuida el planeta."
-47,news,1,2,,1,2,tech,Lleva internet a cualquier rincón con nuestro servicio de conexión satelital de alta velocidad para zonas rurales sin infraestructura. Instalación rápida y sin permanencia.
-48,news,1,2,,1,2,tech,"Entrena tus redes neuronales sin invertir en hardware: alquila GPU de alto rendimiento en nuestra nube para inteligencia artificial, pagando solo por uso."
-49,news,1,2,,1,2,politics,"Sigue las elecciones gallegas al minuto con nuestro diario digital: encuestas, mítines y análisis de cada candidatura. Suscríbete y no te pierdas la noche electoral."
-50,news,1,2,,1,2,religion,"¿Hay vida después de la muerte? Descubre nuestros libros de reflexión cristiana sobre fe, razón y el sentido de la existencia. Envío gratuito a domicilio."
-51,wikihow,0,2,Tema familiar/relacional; 'medicine' resulta forzada.,0,2,medicine,¿Cuesta adaptarse a la nueva familia reconstituida? Nuestros psicólogos de terapia familiar ayudan a hermanastros y padres a convivir con respeto y espacio propio.
-52,wikihow,1,2,,1,2,fashion,"Mide tu contorno de cabeza y elige tu talla perfecta: sombreros, gorras y gorros hechos a medida, con envío gratis y cambios sin coste."
-53,wikihow,1,2,,1,2,medicine,Protege a tu conejo del calor: clínica veterinaria especializada en exóticos con urgencias 24 horas y revisiones preventivas para el verano.
-54,wikihow,0,2,"Consejos sociales y de autoestima, no un tema médico en sentido estricto.",0,2,medicine,Gana confianza y autoestima con nuestras sesiones de psicología online: aprende a ser tú mismo y a crear relaciones sanas y auténticas.
-55,wikihow,1,2,,1,2,fashion,Dile adiós al cabello graso con nuestro champú purificante sin siliconas: raíces limpias y volumen natural durante más días entre lavados.
-56,wikihow,1,2,,1,2,economy,"Mide y mejora los procesos de tu empresa con nuestra consultoría Lean Six Sigma: indicadores claros, datos homogéneos y resultados comparables entre sedes."
-57,wikihow,1,2,,1,2,economy,"¿Quieres comprar un hotel? Te asesoramos en financiación, pago inicial y proyección de rentabilidad a cinco años para que tu inversión salga a cuenta."
-58,wikihow,1,2,,1,2,medicine,¿Tu periquito tiene costras o verrugas? Veterinarios especialistas en aves diagnostican la viruela aviar y te ofrecen tratamiento de apoyo y vitaminas.
-59,wikihow,1,2,,1,2,economy,Convierte tus tarjetas de felicitación en un negocio: curso online de emprendimiento creativo para vender a tiendas y grandes distribuidoras.
-60,wikihow,0,1,Tema ambiental y de jardinería; 'tech' no describe bien el contenido.,0,1,tech,"Evita la erosión de tu jardín con nuestro sistema de riego por goteo inteligente, controlado desde el móvil para usar solo el agua necesaria."
-61,wikihow,1,2,,1,2,medicine,"Cuida la piel sensible de tu bebé con nuestra crema pediátrica suave, sin perfumes y testada dermatológicamente para recién nacidos."
-62,wikihow,1,2,,1,2,economy,¿Compras casa sin agente? Compara hipotecas de distintos bancos en minutos con nuestro asesor financiero online y consigue el mejor tipo de interés.
-63,wikihow,1,2,,1,2,play,Sorprende a todos con tus trucos de cartas: kit de magia con baraja profesional y videotutoriales para principiantes que quieren crear suspense.
-64,wikihow,1,2,,1,2,medicine,"No tienes que enfrentarte a la depresión solo: habla hoy con un psicólogo colegiado por videollamada, de forma confidencial y a tu ritmo."
-65,wikihow,1,2,,1,2,alimentation,"Mejillones gallegos frescos, limpios y listos para cocer al vapor, directos de la batea a tu casa en 24 horas."
-66,wikihow,1,2,,1,2,play,"Crea tu propia casa de muñecas con nuestro kit de manualidades: paredes de madera, papeles decorativos, pegatinas y muebles en miniatura incluidos."
-67,wikihow,1,2,,1,2,fashion,Consigue el ojo de gato perfecto con nuestro delineador líquido de punta fina y prebase de párpados de larga duración que no se corre.
-68,wikihow,1,2,,1,2,play,"Decora tus tarros y botellas con nuestro kit de decoupage para vidrio: pegamento sellador, pinceles y papeles estampados para tardes creativas."
-69,wikihow,1,2,,1,2,medicine,"Recupera tu energía de forma natural: análisis hormonal a domicilio y plan personalizado de sueño, ejercicio y gestión del estrés con un médico."
-70,wikihow,1,2,,1,2,tech,"Domina Java desde cero: curso online que te enseña a instalar el JDK, configurar JAVA_HOME y programar tus primeras aplicaciones."
-71,wikihow,1,2,,1,2,tech,Reforma tu baño sin sorpresas: detector de fugas y cámara de inspección de tuberías inalámbrica con app para revisar cada conexión.
-72,wikihow,1,2,,1,2,medicine,Talones suaves de nuevo: crema podológica con urea que hidrata en profundidad y repara las grietas de los pies secos.
-73,wikihow,1,2,,1,2,medicine,Cuida tu espalda y muñecas mientras cargas a tu bebé: sesiones de fisioterapia posparto y yoga suave para madres y padres primerizos.
-74,wikihow,1,2,,1,2,alimentation,"Papas nuevas de cultivo local y hierbas aromáticas frescas como el perejil, en tu cesta semanal a domicilio para tus guarniciones caseras."
-75,wikihow,0,1,El texto trata principalmente de relaciones y confianza; 'fashion' solo cubre una parte.,0,1,fashion,"Siéntete segura y guapa ante quien te gusta: vestidos de verano y petos con estilo propio, con asesoría de imagen online gratuita."
-76,wikihow,0,2,Mantenimiento de piscina; 'play' funciona aquí como categoría comodín.,0,2,play,"Disfruta tu piscina sin complicaciones: kit completo de cloro, medidor de pH y choque no clorado con entrega a domicilio para que el baño esté siempre listo."
-77,wikihow,1,2,,1,2,fashion,"Luce un estilo elegante sin gastar de más: kit de belleza con mascarilla capilar, tiras blanqueadoras y maquillaje en tonos neutros para un look natural y sofisticado."
-78,wikihow,0,2,Autocuidado y estilo de vida; 'medicine' resulta demasiado clínica.,0,2,medicine,Date permiso para descansar: nuestra app de bienestar te guía con meditaciones y pausas activas para reducir el estrés y recuperar energía sin sentir culpa.
-79,wikihow,1,2,,1,2,tech,"¿Tu Samsung Galaxy va lento? Servicio técnico exprés para restablecer, optimizar y hacer copia de seguridad de tu móvil o tablet sin perder tus datos."
-80,wikihow,1,2,,1,2,tech,"Domina Excel y Google Sheets con nuestro curso online: aprende a proteger, compartir y gestionar hojas de cálculo como un profesional."
-81,wikihow,1,2,,1,2,tech,"No vuelvas a perder tu smartwatch: correas con localizador integrado y seguro contra pérdida para tu reloj inteligente, compatibles con tu iPhone."
-82,wikihow,0,2,Carpintería y bricolaje; 'play' es una asignación genérica.,0,2,play,Convierte tu afición por la carpintería en obras maestras: talleres de ebanistería para aprovechar retales de madera noble y crear tus propios muebles.
-83,wikihow,1,2,,1,2,economy,Paga menos por cada kWh: compara tarifas eléctricas en minutos con nuestro asesor energético y ahorra cada mes en tu factura de la luz.
-84,wikihow,0,2,Adaptación de un gato al hogar; 'alimentation' no representa el tema principal.,0,2,alimentation,Golosinas irresistibles para gatos tímidos: snacks naturales y comida húmeda que ayudan a tu nuevo minino a salir del escondite y sentirse en casa.
-85,wikihow,1,2,,1,2,fashion,Gana seguridad con un estilo impecable: asesoría de imagen masculina y prendas entalladas de temporada para que causes la mejor impresión en cada cita.
-86,wikihow,1,2,,1,2,fashion,"Corsés a medida confeccionados por corsetières expertos: varias capas de tela natural, costuras perfectas y pruebas personalizadas hasta lograr el ajuste ideal."
-87,wikihow,1,2,,1,2,medicine,"Acompaña a tu pareja en su depresión: terapia psicológica online para parejas y familiares, con profesionales colegiados y primera consulta gratuita."
-88,wikihow,1,2,,1,2,fashion,"Crea tu propio sombrero de pescador con estilo: kit de costura con patrones, telas resistentes e hilos a juego para un acabado profesional."
-89,wikihow,1,2,,1,2,economy,"Software de gestión para ONG: genera recibos de donación automáticos y válidos fiscalmente, y fideliza a tus donantes sin papeleo."
-90,wikihow,1,2,,1,2,alimentation,Haz caramelos de cristal en casa: kit de azúcar cristalizable con colorantes alimentarios y palitos para preparar golosinas caseras con los más pequeños.
-91,wikihow,1,2,,1,2,alimentation,"Elabora tu propio queso artesano: kit con cultivos mesófilos, cuajo, termómetro y muselina para preparar quesos frescos en tu cocina."
-92,wikihow,1,2,,1,2,sport,"Más potencia en cada swing: pack de entrenamiento para golfistas con balón medicinal y bandas de resistencia, más clases con profesores certificados."
-93,wikihow,1,2,,1,2,military,"Mantente cerca de tu marino aunque esté de comisión: servicio de envío de paquetes y cartas a destinos militares, en tierra o a bordo."
-94,wikihow,0,2,Transporte ferroviario; 'motor' es una aproximación forzada.,0,2,motor,"Viaja en tren sin preocupaciones: abono de transporte ferroviario con descuentos en trayectos de cercanías y larga distancia, y avisos de llegada en tu móvil."
-95,wikihow,1,2,,1,2,medicine,¿Tu perro muestra signos de ansiedad? Clínica veterinaria especializada en etología canina: diagnóstico temprano y tratamiento para que recupere la calma.
-96,wikihow,0,1,Relaciones de pareja; 'play' no representa bien el tema principal.,0,1,play,"Descubre si es el indicado con planes únicos para dos: experiencias de ocio en pareja, desde catas hasta escapadas, para conoceros mejor y divertiros juntos."
-97,wikihow,0,2,Bricolaje con hormigón; 'play' funciona como categoría comodín.,0,2,play,Decora tu jardín con tus propias manos: kit de bricolaje con tintes y sellantes para hormigón que dan a tus piedras artificiales un acabado natural y duradero.
-98,wikihow,0,2,Instalación doméstica; 'tech' es una aproximación forzada.,0,2,tech,"Instala tus persianas en minutos con nuestro taladro inalámbrico ligero y preciso, con juego de brocas incluido para cualquier tipo de pared."
-99,wikihow,1,2,,1,2,play,"Da voz a tus emociones: taller online de escritura poética donde aprenderás a evitar clichés, revisar tus versos y recibir crítica de otros poetas."
-100,wikihow,1,2,,1,2,play,"Transforma tu habitación en un dojo ninja: decoración zen con bonsáis, madera natural y accesorios de artes marciales para crear tu refugio secreto."
+id,source_type,categoria_correcta_1,encaje_anuncio_1,comentario_1,categoria_correcta_2,encaje_anuncio_2,comentario_2,categoria_ok,encaje_medio,categoria_generada,anuncio_generado
+1,news,1,2,,1,2,,1,2.0,sport,Vive la eliminatoria España-Serbia rumbo al Mundial 2025 con la camiseta oficial de los Hispanos y entradas para el partido de ida. ¡Reserva ya!
+2,news,1,1,,1,2,,1,1.5,economy,Auditoría y cumplimiento normativo contra el blanqueo de capitales para fundaciones e instituciones: transparencia financiera que protege tu reputación. Solicita una consulta gratuita.
+3,news,1,2,,1,2,,1,2.0,play,¿Te dejó sin aliento 'Nadie te salvará'? Suscríbete a nuestra plataforma de streaming y descubre los mejores thrillers de invasiones alienígenas y ciencia ficción.
+4,news,1,2,,1,2,,1,2.0,play,Amplía tu Xbox Series S con un disco SSD de expansión y un mando inalámbrico extra: más espacio para tus juegos digitales y partidas sin límites.
+5,news,1,2,,1,2,,1,2.0,military,Congreso internacional de sistemas de defensa antitanque y misiles guiados: conoce las últimas soluciones para plataformas blindadas. Inscríbete como profesional del sector.
+6,news,1,1,,1,2,,1,1.5,astronomy,Descubre los secretos de los agujeros negros como M87 con nuestro telescopio para aficionados y la guía ilustrada del universo profundo.
+7,news,0,2,,1,2,,0,2.0,fashion,"Completa tu look de novia low cost con nuestros tocados, sandalias y bolsos de fiesta a juego, perfectos para la boda y la preboda por menos de 50 euros."
+8,news,0,2,,1,2,,0,2.0,politics,"Sigue en directo la noche electoral gallega con nuestro análisis de resultados, voto exterior y escaños en tiempo real. Suscríbete a nuestro boletín político."
+9,news,1,2,,1,2,,1,2.0,motor,Devuelve el brillo de concesionario a tu coche con nuestro servicio de detailing profesional y kits de limpieza de carrocería e interior. ¡Pide cita!
+10,news,0,2,,1,2,,0,2.0,sport,Anima al Betis en la eliminatoria de Conference contra el Dinamo de Zagreb con la nueva equipación verdiblanca y paquetes de viaje para la afición.
+11,news,1,1,,1,2,,1,1.5,politics,"Prepara la EVAU sin sobresaltos con nuestra academia online: temario actualizado a los últimos cambios normativos, simulacros por comunidad y tutores especializados."
+12,news,1,2,,1,2,,1,2.0,religion,"Viaja a Roma y visita el Vaticano con nuestras peregrinaciones guiadas: misa papal, Basílica de San Pedro y Museos Vaticanos incluidos."
+13,news,0,1,,1,2,,0,1.5,sport,"Saca el máximo partido a tu reloj GPS con nuestros planes de entrenamiento personalizados para running y trail, adaptados a tu frecuencia cardíaca."
+14,news,1,2,,1,2,,1,2.0,medicine,"Prepara el MIR o el EIR con nuestra academia: simulacros, clases en directo y tutorías para conseguir tu plaza de especialista en Formación Sanitaria Especializada."
+15,news,1,2,,1,2,,1,2.0,play,Revive los clásicos de SNES y Nintendo 64 como Killer Instinct con nuestros mandos retro inalámbricos compatibles con Nintendo Switch.
+16,news,1,1,,1,2,,1,1.5,alimentation,Cocina tus verduras estofadas sin grasa en minutos con nuestra cazuela antiadherente de hierro fundido y nuestros caldos de verduras caseros ecológicos.
+17,news,1,2,,1,2,,1,2.0,politics,"Entiende las protestas del campo y el debate político con nuestro diario digital: análisis, entrevistas y opinión cada mañana. Suscríbete hoy."
+18,news,1,2,,1,2,,1,2.0,medicine,"¿Cansancio, palidez o falta de concentración? Hazte un análisis completo de hierro, ferritina y vitamina B12 en nuestro laboratorio clínico con resultados en 24 horas."
+19,news,1,2,,1,2,,1,2.0,play,"Disfruta de los 55 estrenos de mayo en streaming con nuestro pack de plataformas combinadas a precio reducido. Series, películas y documentales en un solo lugar."
+20,news,0,2,,1,2,,0,2.0,alimentation,"Lubina y dorada de estero gaditano, frescas y con trazabilidad, directas a tu casa en 24 horas. Pide online en nuestra pescadería."
+21,news,1,2,,1,2,,1,2.0,tech,Recupera la calma con nuestra app de gestión inteligente de notificaciones: filtra avisos del móvil y del smartwatch y recibe solo lo realmente importante.
+22,news,1,1,,1,2,,1,1.5,tech,"Actuadores electromecánicos y sensores resistentes a altas temperaturas para la industria aeronáutica: ingeniería, prototipado y ensayos de validación a medida."
+23,news,1,2,,1,2,,1,2.0,tech,"Rinde homenaje a la Ley de Moore con un portátil de última generación: procesador de alto rendimiento, más rápido, ligero y eficiente que nunca."
+24,news,1,2,,1,2,,1,2.0,tech,¿Tienes ordenadores retro o dispositivos antiguos guardados? Tasamos y compramos tu tecnología vintage al mejor precio. Solicita tu valoración gratuita.
+25,news,1,1,,1,2,,1,1.5,astronomy,"Explora Titán y las lunas de Saturno con nuestro curso online de astrobiología y exploración espacial, impartido por divulgadores científicos."
+26,news,1,2,,1,2,,1,2.0,alimentation,"Recibe en casa naranjas salustianas recién cogidas de la Ribera Alta, dulces y jugosas, perfectas para zumos que no amargan. Pide tu caja hoy."
+27,news,1,2,,1,2,,1,2.0,sport,Vive cada jornada de LaLiga como en la grada de Son Moix: suscríbete a nuestra plataforma deportiva y no te pierdas ni un gol en el descuento.
+28,news,1,2,,1,2,,1,2.0,motor,"Prepara tu próximo raid todoterreno con nuestros recambios y equipamiento de competición para UTV: asientos, kits de seguridad y piezas de fibra de carbono homologadas FIA."
+29,news,1,2,,1,2,,1,2.0,politics,"Sigue la actualidad del Parlamento de Cantabria con nuestro boletín de análisis político regional: debates, propuestas y presupuestos explicados cada semana."
+30,news,1,2,,1,2,,1,2.0,religion,Descubre nuestros retiros de oración y adoración en silencio para grupos parroquiales y de renovación carismática. Reserva tu plaza y renueva tu vida de fe.
+31,news,1,2,,1,2,,1,2.0,tech,"Protege tus cámaras, drones y equipos electrónicos con nuestras maletas estancas con divisores personalizables, ligeras y aptas como equipaje de mano."
+32,news,1,2,,1,2,,1,2.0,religion,Únete a nuestra cadena de oración por las víctimas de accidentes laborales y sus familias. Encarga una misa o envía tu intención desde nuestra web.
+33,news,1,2,,1,2,,1,2.0,fashion,"Anticipa la primavera con vestidos camiseros midi fluidos y satinados de nuestra nueva colección, ideales para la oficina o una cita. Ahora con descuentos especiales."
+34,news,1,2,,1,2,,1,2.0,military,Soluciones de manipulación logística para defensa: apiladoras y grúas aerotransportables adaptadas a operaciones militares y buques anfibios. Solicita una demostración para tu unidad.
+35,news,1,2,,1,2,,1,2.0,astronomy,"Explora el futuro de la energía espacial con nuestro curso online de tecnología de satélites y CubeSats, impartido por ingenieros aeroespaciales. Inscríbete ya."
+36,news,1,2,,1,2,,1,2.0,medicine,"Controla tu hipertensión desde casa con nuestro tensiómetro digital de brazo con detección de arritmias, validado clínicamente. Cuida tu corazón cada día."
+37,news,1,2,,1,2,,1,2.0,medicine,Estudia el sistema nervioso como nunca con nuestros atlas de anatomía y modelos 3D interactivos para estudiantes de Medicina. Pruébalos gratis este mes.
+38,news,1,1,,1,2,,1,1.5,play,"Revive todas las aventuras de Hulk y los Vengadores en nuestro servicio de streaming: películas, series y extras del universo de superhéroes. Primer mes gratis."
+39,news,1,2,,1,2,,1,2.0,fashion,"Encuentra tu vestido de novia de líneas sencillas y espalda abierta en nuestro atelier nupcial, con pendientes y accesorios a juego. Pide cita para tu prueba."
+40,news,1,2,,1,2,,1,2.0,religion,"Vive la Cuaresma con nuestra app de meditación diaria del Evangelio: oración preparatoria, reflexión y propósito para cada día. Descárgala gratis."
+41,news,1,2,,1,2,,1,2.0,alimentation,"Saca todo el partido a tu cafetera superautomática con nuestro café en grano de tueste artesanal, ideal para espressos y cappuccinos cremosos. Envío gratis en tu primer pedido."
+42,news,0,2,,1,2,,0,2.0,sport,No te pierdas ningún partido de la NBA ni la Euroliga: suscríbete a nuestro pase de baloncesto y sigue a tus bases favoritos en directo.
+43,news,1,2,,1,2,,1,2.0,fashion,Renueva tu armario de otoño con prendas de marcas internacionales y envío rápido a México. Aprovecha hasta un 25% de descuento en nuestra tienda online.
+44,news,1,1,,1,2,,1,1.5,religion,Fórmate en la fe antes de tu experiencia misionera con nuestros cursos presenciales para jóvenes catequistas y voluntarios. Inscríbete y prepárate para la misión.
+45,news,1,2,,1,2,,1,2.0,religion,"Restauramos imágenes religiosas dañadas con técnicas artesanales: tallas del Sagrado Corazón, santos patronos y retablos para parroquias. Solicita presupuesto sin compromiso."
+46,news,1,2,,1,2,,1,2.0,fashion,"Combina collares, anillos y pulseras en capas con nuestras joyas de oro responsable y piedras naturales. Brilla con estilo y cuida el planeta."
+47,news,0,2,,1,2,,0,2.0,tech,Lleva internet a cualquier rincón con nuestro servicio de conexión satelital de alta velocidad para zonas rurales sin infraestructura. Instalación rápida y sin permanencia.
+48,news,1,2,,1,2,,1,2.0,tech,"Entrena tus redes neuronales sin invertir en hardware: alquila GPU de alto rendimiento en nuestra nube para inteligencia artificial, pagando solo por uso."
+49,news,1,2,,1,2,,1,2.0,politics,"Sigue las elecciones gallegas al minuto con nuestro diario digital: encuestas, mítines y análisis de cada candidatura. Suscríbete y no te pierdas la noche electoral."
+50,news,1,2,,1,2,,1,2.0,religion,"¿Hay vida después de la muerte? Descubre nuestros libros de reflexión cristiana sobre fe, razón y el sentido de la existencia. Envío gratuito a domicilio."
+51,wikihow,0,1,,0,2,Tema familiar/relacional; 'medicine' resulta forzada.,0,1.5,medicine,¿Cuesta adaptarse a la nueva familia reconstituida? Nuestros psicólogos de terapia familiar ayudan a hermanastros y padres a convivir con respeto y espacio propio.
+52,wikihow,1,2,,1,2,,1,2.0,fashion,"Mide tu contorno de cabeza y elige tu talla perfecta: sombreros, gorras y gorros hechos a medida, con envío gratis y cambios sin coste."
+53,wikihow,1,2,,1,2,,1,2.0,medicine,Protege a tu conejo del calor: clínica veterinaria especializada en exóticos con urgencias 24 horas y revisiones preventivas para el verano.
+54,wikihow,1,2,,0,2,"Consejos sociales y de autoestima, no un tema médico en sentido estricto.",0,2.0,medicine,Gana confianza y autoestima con nuestras sesiones de psicología online: aprende a ser tú mismo y a crear relaciones sanas y auténticas.
+55,wikihow,1,2,,1,2,,1,2.0,fashion,Dile adiós al cabello graso con nuestro champú purificante sin siliconas: raíces limpias y volumen natural durante más días entre lavados.
+56,wikihow,1,2,,1,2,,1,2.0,economy,"Mide y mejora los procesos de tu empresa con nuestra consultoría Lean Six Sigma: indicadores claros, datos homogéneos y resultados comparables entre sedes."
+57,wikihow,1,2,,1,2,,1,2.0,economy,"¿Quieres comprar un hotel? Te asesoramos en financiación, pago inicial y proyección de rentabilidad a cinco años para que tu inversión salga a cuenta."
+58,wikihow,1,2,,1,2,,1,2.0,medicine,¿Tu periquito tiene costras o verrugas? Veterinarios especialistas en aves diagnostican la viruela aviar y te ofrecen tratamiento de apoyo y vitaminas.
+59,wikihow,1,1,,1,2,,1,1.5,economy,Convierte tus tarjetas de felicitación en un negocio: curso online de emprendimiento creativo para vender a tiendas y grandes distribuidoras.
+60,wikihow,1,1,,0,1,Tema ambiental y de jardinería; 'tech' no describe bien el contenido.,0,1.0,tech,"Evita la erosión de tu jardín con nuestro sistema de riego por goteo inteligente, controlado desde el móvil para usar solo el agua necesaria."
+61,wikihow,1,2,,1,2,,1,2.0,medicine,"Cuida la piel sensible de tu bebé con nuestra crema pediátrica suave, sin perfumes y testada dermatológicamente para recién nacidos."
+62,wikihow,1,2,,1,2,,1,2.0,economy,¿Compras casa sin agente? Compara hipotecas de distintos bancos en minutos con nuestro asesor financiero online y consigue el mejor tipo de interés.
+63,wikihow,1,1,,1,2,,1,1.5,play,Sorprende a todos con tus trucos de cartas: kit de magia con baraja profesional y videotutoriales para principiantes que quieren crear suspense.
+64,wikihow,1,2,,1,2,,1,2.0,medicine,"No tienes que enfrentarte a la depresión solo: habla hoy con un psicólogo colegiado por videollamada, de forma confidencial y a tu ritmo."
+65,wikihow,0,2,,1,2,,0,2.0,alimentation,"Mejillones gallegos frescos, limpios y listos para cocer al vapor, directos de la batea a tu casa en 24 horas."
+66,wikihow,1,2,,1,2,,1,2.0,play,"Crea tu propia casa de muñecas con nuestro kit de manualidades: paredes de madera, papeles decorativos, pegatinas y muebles en miniatura incluidos."
+67,wikihow,1,2,,1,2,,1,2.0,fashion,Consigue el ojo de gato perfecto con nuestro delineador líquido de punta fina y prebase de párpados de larga duración que no se corre.
+68,wikihow,1,2,,1,2,,1,2.0,play,"Decora tus tarros y botellas con nuestro kit de decoupage para vidrio: pegamento sellador, pinceles y papeles estampados para tardes creativas."
+69,wikihow,0,2,,1,2,,0,2.0,medicine,"Recupera tu energía de forma natural: análisis hormonal a domicilio y plan personalizado de sueño, ejercicio y gestión del estrés con un médico."
+70,wikihow,1,2,,1,2,,1,2.0,tech,"Domina Java desde cero: curso online que te enseña a instalar el JDK, configurar JAVA_HOME y programar tus primeras aplicaciones."
+71,wikihow,1,2,,1,2,,1,2.0,tech,Reforma tu baño sin sorpresas: detector de fugas y cámara de inspección de tuberías inalámbrica con app para revisar cada conexión.
+72,wikihow,1,2,,1,2,,1,2.0,medicine,Talones suaves de nuevo: crema podológica con urea que hidrata en profundidad y repara las grietas de los pies secos.
+73,wikihow,1,2,,1,2,,1,2.0,medicine,Cuida tu espalda y muñecas mientras cargas a tu bebé: sesiones de fisioterapia posparto y yoga suave para madres y padres primerizos.
+74,wikihow,1,2,,1,2,,1,2.0,alimentation,"Papas nuevas de cultivo local y hierbas aromáticas frescas como el perejil, en tu cesta semanal a domicilio para tus guarniciones caseras."
+75,wikihow,0,2,,0,1,El texto trata principalmente de relaciones y confianza; 'fashion' solo cubre una parte.,0,1.5,fashion,"Siéntete segura y guapa ante quien te gusta: vestidos de verano y petos con estilo propio, con asesoría de imagen online gratuita."
+76,wikihow,1,2,,0,2,Mantenimiento de piscina; 'play' funciona aquí como categoría comodín.,0,2.0,play,"Disfruta tu piscina sin complicaciones: kit completo de cloro, medidor de pH y choque no clorado con entrega a domicilio para que el baño esté siempre listo."
+77,wikihow,1,2,,1,2,,1,2.0,fashion,"Luce un estilo elegante sin gastar de más: kit de belleza con mascarilla capilar, tiras blanqueadoras y maquillaje en tonos neutros para un look natural y sofisticado."
+78,wikihow,1,2,,0,2,Autocuidado y estilo de vida; 'medicine' resulta demasiado clínica.,0,2.0,medicine,Date permiso para descansar: nuestra app de bienestar te guía con meditaciones y pausas activas para reducir el estrés y recuperar energía sin sentir culpa.
+79,wikihow,1,2,,1,2,,1,2.0,tech,"¿Tu Samsung Galaxy va lento? Servicio técnico exprés para restablecer, optimizar y hacer copia de seguridad de tu móvil o tablet sin perder tus datos."
+80,wikihow,1,2,,1,2,,1,2.0,tech,"Domina Excel y Google Sheets con nuestro curso online: aprende a proteger, compartir y gestionar hojas de cálculo como un profesional."
+81,wikihow,1,2,,1,2,,1,2.0,tech,"No vuelvas a perder tu smartwatch: correas con localizador integrado y seguro contra pérdida para tu reloj inteligente, compatibles con tu iPhone."
+82,wikihow,1,2,,0,2,Carpintería y bricolaje; 'play' es una asignación genérica.,0,2.0,play,Convierte tu afición por la carpintería en obras maestras: talleres de ebanistería para aprovechar retales de madera noble y crear tus propios muebles.
+83,wikihow,1,2,,1,2,,1,2.0,economy,Paga menos por cada kWh: compara tarifas eléctricas en minutos con nuestro asesor energético y ahorra cada mes en tu factura de la luz.
+84,wikihow,0,1,,0,2,Adaptación de un gato al hogar; 'alimentation' no representa el tema principal.,0,1.5,alimentation,Golosinas irresistibles para gatos tímidos: snacks naturales y comida húmeda que ayudan a tu nuevo minino a salir del escondite y sentirse en casa.
+85,wikihow,1,1,,1,2,,1,1.5,fashion,Gana seguridad con un estilo impecable: asesoría de imagen masculina y prendas entalladas de temporada para que causes la mejor impresión en cada cita.
+86,wikihow,1,2,,1,2,,1,2.0,fashion,"Corsés a medida confeccionados por corsetières expertos: varias capas de tela natural, costuras perfectas y pruebas personalizadas hasta lograr el ajuste ideal."
+87,wikihow,1,2,,1,2,,1,2.0,medicine,"Acompaña a tu pareja en su depresión: terapia psicológica online para parejas y familiares, con profesionales colegiados y primera consulta gratuita."
+88,wikihow,1,2,,1,2,,1,2.0,fashion,"Crea tu propio sombrero de pescador con estilo: kit de costura con patrones, telas resistentes e hilos a juego para un acabado profesional."
+89,wikihow,1,2,,1,2,,1,2.0,economy,"Software de gestión para ONG: genera recibos de donación automáticos y válidos fiscalmente, y fideliza a tus donantes sin papeleo."
+90,wikihow,1,2,,1,2,,1,2.0,alimentation,Haz caramelos de cristal en casa: kit de azúcar cristalizable con colorantes alimentarios y palitos para preparar golosinas caseras con los más pequeños.
+91,wikihow,1,2,,1,2,,1,2.0,alimentation,"Elabora tu propio queso artesano: kit con cultivos mesófilos, cuajo, termómetro y muselina para preparar quesos frescos en tu cocina."
+92,wikihow,1,2,,1,2,,1,2.0,sport,"Más potencia en cada swing: pack de entrenamiento para golfistas con balón medicinal y bandas de resistencia, más clases con profesores certificados."
+93,wikihow,1,1,,1,2,,1,1.5,military,"Mantente cerca de tu marino aunque esté de comisión: servicio de envío de paquetes y cartas a destinos militares, en tierra o a bordo."
+94,wikihow,1,2,,0,2,Transporte ferroviario; 'motor' es una aproximación forzada.,0,2.0,motor,"Viaja en tren sin preocupaciones: abono de transporte ferroviario con descuentos en trayectos de cercanías y larga distancia, y avisos de llegada en tu móvil."
+95,wikihow,1,2,,1,2,,1,2.0,medicine,¿Tu perro muestra signos de ansiedad? Clínica veterinaria especializada en etología canina: diagnóstico temprano y tratamiento para que recupere la calma.
+96,wikihow,1,1,,0,1,Relaciones de pareja; 'play' no representa bien el tema principal.,0,1.0,play,"Descubre si es el indicado con planes únicos para dos: experiencias de ocio en pareja, desde catas hasta escapadas, para conoceros mejor y divertiros juntos."
+97,wikihow,1,2,,0,2,Bricolaje con hormigón; 'play' funciona como categoría comodín.,0,2.0,play,Decora tu jardín con tus propias manos: kit de bricolaje con tintes y sellantes para hormigón que dan a tus piedras artificiales un acabado natural y duradero.
+98,wikihow,1,2,,0,2,Instalación doméstica; 'tech' es una aproximación forzada.,0,2.0,tech,"Instala tus persianas en minutos con nuestro taladro inalámbrico ligero y preciso, con juego de brocas incluido para cualquier tipo de pared."
+99,wikihow,1,2,,1,2,,1,2.0,play,"Da voz a tus emociones: taller online de escritura poética donde aprenderás a evitar clichés, revisar tus versos y recibir crítica de otros poetas."
+100,wikihow,1,2,,1,2,,1,2.0,play,"Transforma tu habitación en un dojo ninja: decoración zen con bonsáis, madera natural y accesorios de artes marciales para crear tu refugio secreto."
